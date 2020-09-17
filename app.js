@@ -4,6 +4,7 @@ const port = 3000;
 const mongoose = require('mongoose');
 
 const rotaPacote = require('./rotas/rotaPacote');
+const rotaUsuario = require('');
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
@@ -33,6 +34,7 @@ app.use((req, res, next) => {
 });
 
 app.use('/api/pacotes', rotaPacote);
+app.use('/api/usuario', rotaUsuario);
 
 app.listen(port, () => {
     console.log(`Entrar: http://localhost:${port}`);
