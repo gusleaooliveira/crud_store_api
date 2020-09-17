@@ -24,7 +24,7 @@ exports.inserir = (req, res) => {
 exports.atualizar = (req, res) => {
     let id = req.params.id;
     let pacoteAtualizar = req.body;
-    Pacote.findOneAndUpdate({ _id: id}, pacoteAtualizar, { new: true}, (err, pacoteAtual){
+    Pacote.findOneAndUpdate({ _id: id}, pacoteAtualizar, { new: true}, (err, pacoteAtual) => {
         if(err){
             console.error(err);
             res.send(err);

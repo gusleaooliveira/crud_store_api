@@ -14,3 +14,15 @@ const PacoteSchema = new Schema({
 });
 
 module.exports = mongoose.model("Pacote", PacoteSchema);
+
+/*
+
+{
+	"nome": "",
+	"descricao": "",
+	"comandoInstalar": "",
+	"comandoApagar": "",
+	"versao": ""
+}
+
+*/
