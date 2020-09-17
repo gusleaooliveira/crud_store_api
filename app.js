@@ -4,7 +4,7 @@ const port = 3000;
 const mongoose = require('mongoose');
 
 const rotaPacote = require('./rotas/rotaPacote');
-const rotaUsuario = require('');
+const rotaUsuario = require('./rotas/rotaUsuario');
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
