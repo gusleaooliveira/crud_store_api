@@ -1,4 +1,4 @@
-const Pacote = require('../model/Pacote');
+const Pacote = require('../model/pacote');
 
 exports.listar = (req, res) => {
     Pacote.find({}, (err, pacotes) => {
