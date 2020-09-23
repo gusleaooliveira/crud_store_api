@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# Loja de aplicativos 
+### Descrição
+Será criada uma loja de aplicativos voltado para linux, onde:
 
-You can use the [editor on GitHub](https://github.com/gusleaooliveira/crud_store_api/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+* Cadastraremos usuários administradores
+* Os administradores cadastrarão os programas 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> As **funcionalidades de negócio** estarão lincadas com a usabilidade do usuário do sistema e com o cadastro dos programas.
+> Essas funcionalidades poderão ser com a doação que os usuários poderão fazer para a loja de aplicativos.
+> Os usuários padrão, que usarão a loja também terão de se cadastrar.
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Técnologias usadas:
 
-```markdown
-Syntax highlighted code block
+* Framework: [Express](http://expressjs.com/)
+* Template engine: [Express reat views](https://github.com/reactjs/express-react-views) ou [EJS](https://github.com/tj/ejs)
+* Biblioteca para o banco: [Mongoose](https://mongoosejs.com/)
+* Banco: [MongoDB](https://www.mongodb.com/)
+* Segurança no login: [JWT](https://jwt.io/)
 
-# Header 1
-## Header 2
-### Header 3
+> Demais ferramentas serão adicionadas ao decorrer do trabalho
+ 
+ ---
 
-- Bulleted
-- List
+# Criador
 
-1. Numbered
-2. List
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
 
-**Bold** and _Italic_ and `Code` text
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gusleaooliveira/crud_store_api/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Disponível em : [Repositório de exercícios](https://gusleaooliveira.github.io/posts/)
