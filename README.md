@@ -17,6 +17,7 @@ Será criada uma loja de aplicativos voltado para linux, onde:
 * Template engine: [Express reat views](https://github.com/reactjs/express-react-views) ou [EJS](https://github.com/tj/ejs)
 * Biblioteca para o banco: [Mongoose](https://mongoosejs.com/)
 * Banco: [MongoDB](https://www.mongodb.com/)
+* Segurança no login: [JWT](https://jwt.io/)
 
 > Demais ferramentas serão adicionadas ao decorrer do trabalho
  
