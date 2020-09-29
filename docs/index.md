@@ -7,6 +7,7 @@ Será criada uma loja de aplicativos voltado para linux, onde:
 
 > As **funcionalidades de negócio** estarão lincadas com a usabilidade do usuário do sistema e com o cadastro dos programas.
 > Essas funcionalidades poderão ser com a doação que os usuários poderão fazer para a loja de aplicativos.
+> Dashboar e logs
 > Os usuários padrão, que usarão a loja também terão de se cadastrar.
 
 ---
